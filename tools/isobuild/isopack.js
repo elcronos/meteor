@@ -1453,7 +1453,7 @@ _.extend(Isopack.prototype, {
           from: sourcePath,
           to: bundlePath,
           npmDiscards: self.npmDiscards,
-          symlink: false
+          symlink: true
         });
       });
 
